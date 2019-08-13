@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.NewsDetailsActivity">
+
+    <ImageView
+        android:id="@+id/newsPhototest"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/noimage"
+        android:layout_margin="20dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/newsTitlelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Title"
+        android:layout_below="@+id/newsPhototest"
+        android:layout_marginTop="50dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/newstitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="News Title"
+        android:layout_below="@+id/newsPhototest"
+        android:layout_marginTop="50dp"
+        tools:ignore="MissingConstraints"
+        android:layout_toRightOf="@+id/newsTitlelabel"
+        android:layout_marginLeft="90dp"
+        />
+
+    <TextView
+        android:id="@+id/newsDesclabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Description"
+        android:layout_below="@+id/newsTitlelabel"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/newsdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="News Description"
+        android:layout_below="@+id/newstitle"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints"
+        android:layout_toRightOf="@+id/newsDesclabel"
+        android:layout_marginLeft="50dp"
+        />
+
+
+
+</RelativeLayout>
+
+
+
